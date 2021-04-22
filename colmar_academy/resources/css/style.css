@@ -1,0 +1,24 @@
+/*header and nav bar*/
+
+.header {
+    height: 32px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    margin-right: 24px;
+}
+
+.navigation p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
