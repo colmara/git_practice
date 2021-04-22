@@ -45,3 +45,47 @@
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
+/*About the school/campus*/
+
+.main {
+    display: flex;
+    margin: 32px 24px;
+}
+
+.main img {
+    width: 60%;
+}
+
+.about {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.orientation,
+.campus,
+.lecture {
+    display: flex;
+    background-color: gray;
+}
+
+.about img {
+    width: 35%;
+    padding: 16px;
+}
+
+.date,
+.location,
+.guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+.about p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
