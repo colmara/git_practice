@@ -89,3 +89,36 @@
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+/*Start learning section*/
+
+.start {
+    background-color: gray;
+}
+
+.start h3 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 72px 32px 72px;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    background-color: white;
+    padding: 16px 16px 24px 16px;
+    text-align: center;
+    width: 30%;
+}
+
+.course p {
+    margin-top: 8px;
+}
